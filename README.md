@@ -18,9 +18,9 @@ the context of egocentric visual and history QA contents, with both grounded in 
 
 To evaluate companion-centric QA on egocentric video streams, we construct a practical streaming QA dataset, BuddyVQA, built from videos that captures daily human activities, and enhanced using the multimodal reasoning capabilities of large vision–language models. 
 
-![BuddyVQA](/Users/qhuni/Downloads/BuddyVQA/img/BuddyVQA.png)
+![BuddyVQA](img/buddyvqa.png)
 
-![BuddyVQA_comparison](/Users/qhuni/Downloads/BuddyVQA/img/BuddyVQA_comparison.png)
+![BuddyVQA_comparison](img/buddyvqa_comparison.png)
 
 ### MyBuddy
 
@@ -28,7 +28,7 @@ To evaluate companion-centric QA on egocentric video streams, we construct a pra
 
 After offline visual encoding, the Multi-Level Memory organizes features into three active levels. The Visual Information Retrieval module enhances visual understanding through captioning, filtering, and eye\&hand detection. The incoming question is classified by a Question Router. All visual and textual information and the question are processed by the zero-shot MLLM for online QA, while the Historical QA Buffer maintains prior QA pairs to support chained reasoning. 
 
-![MyBuddy](/Users/qhuni/Downloads/BuddyVQA/img/MyBuddy.png)
+![MyBuddy](img/mubuddy.png)
 
 
 
