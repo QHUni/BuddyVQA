@@ -1,0 +1,11 @@
+{
+  "sample_fps": 1,
+  "active_window": 30,
+  "semi_active_window": 120,
+  "dbscan_eps": 0.27,
+  "dbscan_min_pts": 5,
+  "low_active_summary_window": 60,
+  "max_history": 32,
+  "embedding_dim": 64,
+  "seed": 42
+}
