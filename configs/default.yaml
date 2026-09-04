@@ -1,0 +1,34 @@
+seed: 7
+sampling_fps: 1.0
+delta_seconds: 30.0
+gamma_seconds: 120.0
+dbscan_eps: 0.27
+dbscan_min_pts: 5
+question_window: 8
+top_k_clusters: 3
+max_active_frames: 16
+max_semi_frames: 16
+max_summary_frames: 12
+low_summary_window_seconds: 30.0
+low_summary_overlap_seconds: 5.0
+image_max_side: 768
+embedder:
+  type: clip
+  model: openai/clip-vit-base-patch32
+  device: auto
+small_backend:
+  type: openai
+  model: gpt-4.1-mini
+  api_key_env: OPENAI_API_KEY
+  base_url: null
+main_backend:
+  type: openai
+  model: gpt-5.5
+  api_key_env: OPENAI_API_KEY
+  base_url: null
+judge_backend:
+  type: openai
+  model: gpt-5
+  api_key_env: OPENAI_API_KEY
+  base_url: null
+
