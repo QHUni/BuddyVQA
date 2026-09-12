@@ -1,4 +1,4 @@
-## BuddyVQA: Companion-Oriented QA Assistance in Egocentric Vision
+## [BuddyVQA: Companion-style QA Assistance in Ego-Vision](https://arxiv.org/abs/2609.06721v1)
 
 ----
 
